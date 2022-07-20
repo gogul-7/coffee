@@ -1,0 +1,656 @@
+body,html{
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    background-size: contain;
+    background-color: #f9f1d7;
+}
+h2{
+    font-family: Oswald,sans-serif;
+    color: white;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+    width: 50%;
+    line-height: 1.14286em;
+    margin-left: 50px;
+    margin-top: 91px;
+}
+h3{
+    color: #6c5f41;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu_head{
+    position: relative;
+    top: 660px;
+    z-index: 900;
+}
+.ul{
+    background-size: contain;
+    height: 8px;
+    position: absolute;
+    top: 729px;
+    left: 688px;
+    width: 9%;
+    background-image: url(./images/112-1128063_underline-png.png);
+    z-index: 99;
+}
+.nav_bg{
+    width: 100%;
+    height: 524px;
+    background-image: url("./images/pexels-chevanon-photography-302903.jpg");
+    background-position-y: 4px;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    /* top: 100px; */
+    width: 100%;
+    height: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.banner_1{
+    position: absolute;
+    border-radius: 10px;
+    height: 580px;
+    left: 325px;
+    top: -98px;
+    width: 870px;
+    background-image: url("	https://barista.qodeinteractive.com/elementor/wp-content/uploads/2017/01/home-1-s-slider-1.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 30px rgba(7, 7, 7, 0.771); 
+
+}
+.banner_1_2{
+    height: 700px;
+    position: relative;
+    top: 550px;
+    background-color: #fff9e5;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.banner_column_1{
+    height: 36%;
+    position: relative;
+    top: 112px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner_column_2{
+    position: relative;
+    top: 140px;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu_items{
+    height: 250px;
+    width: 100px;
+    /* border: yellow 2px solid; */
+     flex-basis: 25%;
+   /* margin-top: 130px; */
+    /* margin-bottom: 27px; */
+    border-radius: 10px;
+}
+.menu_items:hover{
+    box-shadow: 0px 0px 10px rgba(7, 7, 7, 0.771); 
+    cursor: pointer;
+    transition: .3s ease;
+}
+.menu_items-1{
+    background-image: url("./images/istockphoto-157675911-612x612.jpg");
+    background-size: cover;
+    background-position-y: -4px;
+}
+.menu_items-1:hover {
+    background-image: url("./images/istockphoto-157675911-612x6121.png");
+    background-size: cover;
+    background-position-y: -4px;
+}
+.menu_items-2{
+    background-image: url("./images/pexels-jason-villanueva-851555.jpg");
+    background-size: cover;
+    background-position-y: -2px;
+}
+.menu_items-2:hover {
+    background-image: url("./images/pexels-jason-villanueva-8515551.png");
+    background-size: cover;
+    background-position-y: -2px;
+}
+.menu_items-3{
+    background-image: url("./images/Homemade-Caramel-Frappe-with-Chocolate-Chips.png");
+    background-size: cover;
+    /* background-position-y: -3px; */
+}
+.menu_items-3:hover {
+    background-image: url("./images/Homemade-Caramel-Frappe-with-Chocolate-Chips1.png");
+    background-size: cover;
+    /* background-position-y: -3px; */
+}
+.menu_items-4{
+    background-image: url("./images/44B518C7-8B04-4CD8-92F4-34CD5B923989-11299-000008158528D343.jpg");
+    background-size: cover;
+    background-position-y: -2px;
+}
+.menu_items-4:hover {
+    background-image: url("./images/44B518C7-8B04-4CD8-92F4-34CD5B923989-11299-000008158528D3431.png");
+    background-size: cover;
+    background-position-y: -2px;
+}
+.menu_items-5{
+    background-image: url("./images/Doppio-Espresso-1200x900.png");
+    background-size: cover;
+    background-position-y: -36px;
+}
+.menu_items-5:hover {
+    background-image: url("./images/Doppio-Espresso-1200x9001.png");
+    background-size: cover;
+    background-position-y: -36px;
+}
+.menu_items-6{
+    background-image: url("./images/image.jpeg");
+    background-size: cover;
+    /* background-position-y: -2px; */
+}
+.menu_items-6:hover {
+    background-image: url("./images/image1.png");
+    background-size: cover;
+    /* background-position-y: -2px; */
+}
+.hide > .menu_item_head{
+    visibility: hidden;
+}
+.hide:hover > .menu_item_head{
+    visibility: visible;
+}
+.hide > .menu_des{
+    visibility: hidden;
+}
+.hide:hover > .menu_des{
+    visibility: visible;
+}
+.menu_item_head{
+    color: black;
+    text-transform: uppercase;
+    z-index: 99;
+    top: -16px;
+    left: 27px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: normal;
+    position: relative;
+}
+.menu_des{
+    color: black;
+    top: -44px;
+    left: 27px;
+    width: 80%;
+    position: relative;
+}
+.hide{
+    height: 220px;
+}
+.coffee_text{
+    color: white;
+    width: 350px;
+    margin-top: 50px;
+    font-family: system-ui;
+    margin-left: 90px;
+    line-height: 17px;
+}
+.header{
+    margin-left: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: #EDDFB3;
+    box-shadow: 0px 0px 30px rgba(7, 7, 7, 0.771); 
+    height: 60px;
+    z-index:9999;
+}
+.logo{
+    position: absolute;
+    background-size: contain;
+    width: 74px;
+    height: 100%;
+    background-image: url("./images/Screenshot\ 2022-07-13\ 030939.png");
+}
+.nav_wrapper{
+    width: 40%;
+    height: 60px;
+    left: 49px;
+    top: -3px;
+    position: relative;
+}
+.nav_items{
+    float: left;
+    padding: 13px;
+    padding-top: 4px;
+    /* text-decoration: none; */
+    color: #6c5f41;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+    height: 15px;
+}
+.nav_drop{
+    background-color: #EDDFB3;
+    border: 0;
+    float: left;
+    position: relative;
+    left: 5px;
+    color: #6c5f41;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+    height: 33px;
+}
+.nav_drop:hover{
+    cursor: pointer;
+    background-color: #D8CCA3;
+    box-shadow: 0px 0px 5px rgba(7, 7, 7, 0.771); 
+}
+ a{
+    text-decoration: none;
+    color: #6c5f41;
+    
+}
+li a:hover{
+    color: rgb(0, 0, 0);
+}
+.drop_items{
+    text-decoration: none;
+    color: #6c5f41;
+    border: 0   ;
+    
+}
+.drop_items:hover{
+    color: rgb(0, 0, 0);
+}
+.nav_items:hover{
+    background-color: #D8CCA3;
+    box-shadow: 0px 0px 5px rgba(7, 7, 7, 0.771); 
+}
+.shop_name{
+    position: relative;
+    width: 194px;
+    height: 100%;
+    float: right;
+    top: -88px;
+    right: -10px;
+}
+.shop_name p{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: #6c5f41;
+}
+.shop_name p:hover{
+    color: black;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.item_card:hover{
+    background-color: #87805e;
+}
+.gallery{
+    height: 600px;
+}
+.gallery_head{
+    position: relative;
+    top: 560px;
+}
+.ul_2{
+    background-size: contain;
+    height: 8px;
+    position: absolute;
+    top: 1437px;
+    left: 693px;
+    width: 9%;
+    background-image: url(./images/112-1128063_underline-png.png);
+    z-index: 99;
+}
+.gallery_grid{
+    position: relative;
+    width: 90%;
+    height: 400px;
+    top: 580px;
+    left: 103px;
+}
+.grid_column_1{
+    height: 50%;
+    display: flex;
+}
+.grid_column_2{
+    height: 50%;
+    display: flex;
+}
+.grid_items{
+    /* border: yellow 2px solid; */
+    flex-basis: 16%;
+    height: 100%;
+}
+.grid_items:hover{
+    transform: scale(1.2);
+    transition: .3s ease;
+    cursor: pointer;
+}
+.grid_items-1{
+    background-image: url("./images/interior-basics.jpg");
+    background-size: cover;
+}
+.grid_items-2{
+    background-image: url("./images/stock-photo-city-business-restaurant-cafe-coffee-small-business-interior-design-coffee-shop-coffeehouse-074e1b12-8cd5-43ef-83ed-6836659ef575.jpg");
+    background-size: cover;
+}
+.grid_items-3{
+    background-image: url("./images/istockphoto-619738870-612x612.jpg");
+    background-size: cover;
+}
+.grid_items-4{
+    background-image: url("./images/Lost-Coffee_Lost-Coffee-960x640.jpeg");
+    background-size: cover;
+}
+.grid_items-5{
+    background-image: url("./images/coffee-shop.jpg");
+    background-size: cover;
+}
+.grid_items-6{
+    background-size: cover;
+    background-image: url("./images/Rist\ Kaffebar.jpg");
+}
+.grid_items-7{
+    background-image: url("./images/images.squarespace-cdn-1_345x345@2x.jpg");
+    background-size: cover;
+}
+.grid_items-8{
+    background-image: url("./images/xxl_153110485.jpg");
+    background-size: cover;
+}
+.grid_items-9{
+    background-image: url("./images/How-to-Build-a-Coffee-Shop-Bar.jpg");
+    background-size: cover;
+}
+.grid_items-10{
+    background-image: url("./images/Schenectady-NY-coffee-shop.jpg");
+    background-size: cover;
+}
+.grid_items-11{
+    background-image: url("./images/coffee-in-mug.jpeg");
+    background-size: cover;
+}
+.grid_items-12{
+    background-image: url("./images/CN+Case+Study+hero+\(Credit_+Blue+Bottle+Coffee\).JPG");
+    background-size: cover;
+}
+.chief{
+    height: 600px;
+    position: relative;
+    top: 550px;
+    background-color: #fff9e5;
+    justify-content: space-evenly;
+}
+.chief_head{
+    position: relative;
+    top: 45px;
+}
+.ul_3{
+    background-size: contain;
+    height: 8px;
+    position: absolute;
+    top: 83px;
+    left: 688px;
+    width: 9%;
+    background-image: url(./images/112-1128063_underline-png.png);
+    z-index: 99;
+}
+.chief_grid{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+}
+.chief_grid_item{
+    width: 290px;
+    height: 300px;
+}
+.chief_grid_item:hover{
+    transition: .3s ease;
+    cursor: pointer;
+}
+.chief_name{
+    color: black;
+    position: relative;
+    top: 290px;
+    font-size: 25px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 700;
+}
+.pos{
+    color: black;
+    position: relative;
+    top: 266px;
+    font-size: 17px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 100;
+}
+.chief_grid_item-1{
+    background-image: url("./images/shutterstock_1518533924-min.jpg");
+    background-size: cover;
+}
+.chief_grid_item-1:hover{
+    background-image: url("./images/shutterstock_15185339241-min.jpg");
+    background-size: cover;
+}
+.chief_grid_item-2{
+    background-image: url("./images/School-chef.jpg");
+    background-size: cover;
+    background-position-x: -123px;
+}
+.chief_grid_item-2:hover{
+    background-image: url("./images/School-chef1.jpg");
+    background-size: cover;
+    background-position-x: -123px;
+}
+.chief_grid_item-3{
+    background-image: url("./images/channels4_profile.jpg");
+    background-size: cover;
+    /* background-position-x: -123px; */
+}
+.chief_grid_item-3:hover{
+    background-image: url("./images/channels4_profile1.jpg");
+    background-size: cover;
+}
+.footer{
+    height: 405px;
+    width: 100%;
+    position: relative;
+    top: 550px;
+    background-color: rgb(49, 48, 48);
+}
+.row1{
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: white 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.col1{
+    height: 100%;
+    width: 25%;
+    position: relative;
+}
+.col1 h6{
+    margin-left: 50px;
+    margin-top: 57px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.col1 p{
+    margin-left: 50px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 100;
+    width: 95%;
+    margin-top: -35px;
+
+}
+.col2 h6{
+    color: white;
+    margin-top: 56px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.col2 p{
+    color: white;
+    font-family: system-ui;
+    font-weight: 100;
+    margin-top: -38px;
+}
+.col2{
+    height: 100%;
+    width: 23%;
+    position: relative;
+}
+.col2 h3{
+    color: #a80a0a;
+    margin: 0;
+    margin-left: -30px;
+}
+.col3{
+    height: 100%;
+    width: 32%;
+    position: relative;
+}
+.col3 h6{
+    color: white;
+    margin-top: 56px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.mail{
+    position: relative;
+    top: -15px;
+    width: 60%;
+    height: 22px;
+    border-radius: 10px;
+    background-color: white;
+}
+.mail::placeholder{
+    color: black;
+    opacity: .7;
+}
+.col3 p{
+    color: white;
+    margin-left: 5px;
+    font-family: system-ui;
+    font-weight: 100;
+    margin-top: -38px;
+}
+.mail_c{
+    position: relative;
+    top: -12px;
+    width: 66%;
+    height: 83px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+.mail_c::placeholder{
+    color: black;
+    opacity: .7;
+}
+.submit{
+    position: relative;
+    left: -333px;
+    top: 28px;
+    height: 35px;
+    width: 89px;
+    font-family: system-ui;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.submit:hover{
+    color: white;
+    background-color: ;
+    background-color: rgb(49, 48, 48);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+.row2 p{
+    color: white;
+    font-family: system-ui;
+    font-weight: 100;
+    margin-left: 80px;
+}
+.social_logo{
+    display: flex;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: -32px;
+    float: right;
+    width: 200px;
+}
+.social_logo_icon{
+    background-size: 35px;
+}
+.social_logo_icon-1{
+    background-image:url("./images/facebook\ \(1\).png") ;
+    width: 18%;
+    height: 72%;
+}
+.social_logo_icon-2{
+    background-image: url("./images/twitter-logo-on-black-background.png");
+    width: 35px;
+    height: 34px;
+    margin-left: 5px;
+}
+.social_logo_icon-3{
+    background-image: url("./images/instagram.png");
+    width: 35px;
+    height: 34px;
+    margin-left: 6px;
+}
+.social_logo_icon-1:hover{
+    background-image:url("./images/facebook\ \(1\)1.png") ;
+    width: 18%;
+    height: 72%;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.social_logo_icon-2:hover{
+    background-image:url("./images/twitter-logo-on-black-background1.png") ;
+    width: 35px;
+    height: 34px;
+    margin-left: 5px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.social_logo_icon-3:hover{
+    background-image:url("./images/instagram1.png") ;
+    width: 35px;
+    height: 34px;
+    margin-left: 6px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
